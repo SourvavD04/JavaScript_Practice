@@ -1,0 +1,5 @@
+let arr = ["first", "second", "third"];
+
+for ( i=0 ; i < arr.length; i++ ) {
+    console.log(arr[i]);
+}
