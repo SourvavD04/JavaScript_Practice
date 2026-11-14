@@ -16,3 +16,6 @@ console.log(fruits); // Output: ['apple', 'banana', 'cherry', 'date']
 // Sorting an array of strings in reverse alphabetical order
 fruits.sort().reverse();
 console.log(fruits); // Output: ['date', 'cherry', 'banana', 'apple']
+
+fruits.sort((a,b) => a.localeCompare(b));
+console.log(fruits); // Output: ['apple', 'banana', 'cherry', 'date']
